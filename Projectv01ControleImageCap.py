@@ -1,4 +1,5 @@
-from webbrowser import get
+## your welcome ##
+## Team P455 ##
 from djitellopy import tello
 import KeyPressModule as kpm
 import time, cv2
@@ -19,8 +20,9 @@ def getKeyboardInput():
     lr, fb, ud, yv = 0, 0, 0, 0
     speed = 50
 
-   # if kpm.getKey("w"): speed = 50
- #   if kpm.getKey("x"): speed = 75
+    # if kpm.getKey("w"): speed = 50
+    # if kpm.getKey("x"): speed = 75
+    
     ### Turbo mode #input# ###
     if kpm.getKey("c"): speed = 100
 
